@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "gito"
+version = "0.1.0"
+description = "Git assistant powered by LLM"
+authors = ["test <test@example.com>"]
+packages = [{include = "gito"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0"
+pytest-cov = "^5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
